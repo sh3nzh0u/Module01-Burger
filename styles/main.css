@@ -18,6 +18,12 @@ header {
     padding-top: 26px;
     padding-bottom: 26px;
 }
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 68.5%;
+}
 .header-logo {
     display: block;
     background-image: url(../images/logo.svg);
@@ -178,8 +184,13 @@ header {
     font-size: 14px;
     color: #1E2F40;
     background-color: #FBB731;
-    padding: 20px 26px;
+    padding: 18px 24px;
     border-radius: 5px;
+    border: 1px solid #FBB731;
+}
+.banner-link:hover {
+    background-color: transparent;
+    color: #FBB731;
 }
 .menu-header {
     display: flex;
@@ -257,6 +268,9 @@ header {
     padding: 10px 32px;
     margin: 0 auto;
 }
+.menu-grid-btn:hover {
+    background-color: #F37335;
+}
 .menu-grid-text {
     color: #1E2F40;
     font-weight: 700;
@@ -294,7 +308,7 @@ header {
     margin-bottom: 19px;
     margin-top: 0;
 }
-.footer-item li {
+.footer-list li {
     margin-bottom: 9px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -302,10 +316,13 @@ header {
     font-weight: 700;
     line-height: 24px;
 }
-.footer-item a {
+.footer-list a {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
+}
+.footer-list a:hover {
+    color: #FBB731;
 }
 .footer-item span {
     color: #DEDEDE;
@@ -313,14 +330,19 @@ header {
     font-weight: 400;
     margin-bottom: 2px;
 }
-.footer-tel ul {
+.footer-list-tel {
+    margin-top: 0;
+}
+.footer-list-tel li {
+    margin-bottom: 12px;
+}
+.footer-list-tel a {
     font-size: 20px;
     font-weight: 800;
     color: #FBB731;
-    margin-top: 0;
 }
-.footer-tel li {
-    margin-bottom: 12px;
+.footer-list-tel a:hover {
+    color: #DEDEDE;
 }
 .footer-list {
     padding: 0;
