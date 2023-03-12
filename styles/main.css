@@ -618,6 +618,28 @@ header {
         gap: 21px;
     }
 }
+@media (max-width: 662px) {
+    .footer {
+        padding-top: 61px;
+        padding-bottom: 61px;
+    }
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-logo {
+        margin-bottom: 41px;
+    }
+    .footer-item h2 {
+        font-size: 18px;
+    }
+    .footer-list-tel a {
+        font-size: 18px;
+    }
+    .footer-list + .footer-list-tel {
+        padding-bottom: 18px;;
+    }
+}
 @media (max-width: 567px) {
     .breadcrumbs a {
         font-size: 14px;
@@ -635,13 +657,46 @@ header {
         padding: 35px 24px 54px;
         background-position: 17% center;
     }
+    .menu-title {
+        font-size: 30px;
+    }
+    .menu-select {
+        flex-basis: 150px;
+    }
+    .menu-grid .menu-grid-cover,
+    .menu-grid .menu-grid-cover img {
+        height: 300px;
+    }
+    .menu-grid-title {
+        font-size: 17px;
+        font-weight: 700;
+    }
 }
-
 @media (max-width: 360px) {
     .header-logo {
         width: 116px;
         height: 37px;
         background-size: contain;
+    }
+    .menu-header {
+        gap: 27px;
+    }
+    .menu-title {
+        font-size: 27px;
+    }
+    .menu-select {
+        flex-basis: 136px;
+    }
+    .menu-grid .menu-grid-cover,
+    .menu-grid .menu-grid-cover img {
+        height: 180px;
+    }
+    .menu-grid-title {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .menu-grid-price {
+        font-size: 16px;
     }
 }
 @media (max-width: 320px) {
