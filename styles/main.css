@@ -547,7 +547,7 @@ header {
     cursor: pointer;
 }
 
-/* Responsive */
+/* Responsive MENU*/
 
 @media (min-width: 1001px) {
     .footer-list + .footer-list-tel {
@@ -560,6 +560,25 @@ header {
     }
 }
 @media (max-width: 1000px) {
+    .wrapper {
+        max-width: 738px;
+    }
+    .content {
+        flex: 0 0 580px;
+        padding-top: 42px;
+        padding-bottom: 122px
+    }
+    .content-title span {
+        font-size: 22px;
+    }
+    .content-title {
+        font-size: 86px;
+        line-height: 101px;
+    }
+    .content-text {
+        font-size: 14px;
+        max-width: 450px;
+    }
     .container {
         max-width: 738px;
     }
@@ -656,6 +675,10 @@ header {
     .banner-box {
         padding: 35px 24px 54px;
         background-position: 17% center;
+        margin-bottom: 60px;
+    }
+    .menu-grid {
+        margin-bottom: 60px;
     }
     .menu-title {
         font-size: 30px;
@@ -671,6 +694,9 @@ header {
         font-size: 17px;
         font-weight: 700;
     }
+    .footer {
+        margin-top: 60;
+    }
 }
 @media (max-width: 360px) {
     .header-logo {
@@ -685,7 +711,9 @@ header {
         font-size: 27px;
     }
     .menu-select {
-        flex-basis: 136px;
+        flex-basis: 360px;
+        font-size: 12px;
+        padding: 13px 16px;
     }
     .menu-grid .menu-grid-cover,
     .menu-grid .menu-grid-cover img {
@@ -698,9 +726,18 @@ header {
     .menu-grid-price {
         font-size: 16px;
     }
+    .menu-grid-btn {
+        padding: 10px 21px;
+    }
+    .footer {
+        margin-top: 0;
+    }
 }
 @media (max-width: 320px) {
     .banner-box {
         background-position: 25% center;
+    }
+    .menu-select {
+        flex-basis: 320px;
     }
 }
