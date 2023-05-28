@@ -568,7 +568,7 @@ header {
 @media (max-width: 1183px) {
     .wrapper {
         max-width: 738px;
-        gap: 25px;
+        gap: 2.4vw;
     }
     .content {
         flex: unset;
@@ -685,6 +685,9 @@ header {
     }
 }
 @media (max-width: 662px) {
+    .wrapper {
+        flex-direction: column;
+    }
     .visual-bg {
         display: none;
     }
@@ -741,14 +744,17 @@ header {
     }
     .menu-grid .menu-grid-cover,
     .menu-grid .menu-grid-cover img {
-        height: 300px;
+        height: 50vw;
     }
     .menu-grid-title {
         font-size: 17px;
         font-weight: 700;
     }
+    .menu-other .menu-grid-item {
+        flex: 0 0 73vw;
+    }
     .footer {
-        margin-top: 60;
+        margin-top: 60px;
     }
 }
 @media (max-width: 477px) {
@@ -763,10 +769,6 @@ header {
     }
 }
 @media (max-width: 360px) {
-    .wrapper {
-        flex-direction: column;
-        gap: 16px;
-    }
     .header-logo {
         width: 116px;
         height: 37px;
